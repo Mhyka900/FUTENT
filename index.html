@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FUTENT AI — Your AI University Companion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+  <div class="cinematic-bg">
+    <div class="glow"></div><div class="glow"></div>
+  </div>
+  <div id="toast-container"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__brand">
+        <span class="nav__mark"><i class="fas fa-cube"></i></span> FUTENT AI
+      </a>
+      <nav class="nav__links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+      </nav>
+      <div class="nav__actions">
+        <a href="login.html" class="btn btn--ghost">Log in</a>
+        <a href="register.html" class="btn btn--primary">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero container" id="top">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">FUTENT AI PLATFORM</p>
+        <h1 class="hero__title">Your AI-Powered <span class="hero__title-accent">University Companion</span></h1>
+        <p class="hero__subtitle">Lecture notes, past questions, and instant answers. All behind one prompt.</p>
+        <div class="hero__cta-row">
+          <a href="register.html" class="btn btn--primary btn--lg">Start Learning Free</a>
+          <a href="terms.html" class="btn btn--secondary btn--lg">Read Terms</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="features" class="container" style="padding: 100px 24px; position:relative; z-index:1;">
+    <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Everything you need</h2>
+    <p style="color: var(--paper-dim); margin-bottom: 3rem;">We replaced your broken group chats and scattered drives.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+      <div class="settings-container" style="margin:0; padding:2rem;">
+        <h3 style="color:var(--primary-light); margin-bottom:1rem;"><i class="fas fa-brain"></i> AI Assistant</h3>
+        <p style="color:var(--paper-dim);">Get instant answers sourced directly from your course materials.</p>
+      </div>
+      <div class="settings-container" style="margin:0; padding:2rem;">
+        <h3 style="color:var(--primary-light); margin-bottom:1rem;"><i class="fas fa-file-alt"></i> Past Questions</h3>
+        <p style="color:var(--paper-dim);">Access years of exams sorted by course and session.</p>
+      </div>
+      <div class="settings-container" style="margin:0; padding:2rem;">
+        <h3 style="color:var(--primary-light); margin-bottom:1rem;"><i class="fas fa-bell"></i> Real-time Updates</h3>
+        <p style="color:var(--paper-dim);">Never miss a timetable change or venue update again.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>

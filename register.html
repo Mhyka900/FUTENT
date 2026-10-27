@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FUTENT AI · Register</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+  <div class="cinematic-bg"><div class="glow"></div><div class="glow"></div></div>
+  <div id="toast-container"></div>
+
+  <div class="auth-wrapper">
+    <div class="auth-card" id="register-form">
+      <h2>Create <span>FUTENT AI</span></h2>
+      <p class="subtitle">Join the network</p>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="auth-input" id="regName" placeholder="John" />
+        </div>
+        <div class="form-group">
+          <label>Surname</label>
+          <input type="text" class="auth-input" id="regSurname" placeholder="Doe" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Special Login Code (5 chars)</label>
+        <input type="text" class="auth-input" id="regCode" placeholder="e.g. A7X9Z" maxlength="5" />
+      </div>
+
+      <div class="form-group">
+        <label>Password (8+ chars)</label>
+        <input type="password" class="auth-input" id="regPassword" placeholder="••••••••" />
+      </div>
+
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" class="auth-input" id="regPhone" placeholder="+1234567890" />
+      </div>
+
+      <p style="font-size:0.8rem; color:var(--paper-dim); margin-bottom:1rem;">
+        By registering, you agree to our <a href="terms.html" style="color:var(--primary-light);">Terms & Conditions</a>.
+      </p>
+
+      <button class="auth-btn" id="registerBtn"><i class="fas fa-user-plus"></i> Register</button>
+      <div class="auth-switch">Already have an account? <a href="login.html">Sign in</a></div>
+    </div>
+  </div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
